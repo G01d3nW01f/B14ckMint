@@ -94,5 +94,19 @@ sudo gem install wpscan
   ./msfinstall
  ```
  
+# 9 Install searchsploit
+ 
+ ![image](https://user-images.githubusercontent.com/75846902/154013242-7a6e4f7f-e0ed-40d7-9a0f-4c398dca9f2b.png)
+
+ 
+ ```
+ git clone https://github.com/offensive-security/exploitdb.git /opt/exploit-database
+ 
+ ln -sf /opt/exploit-database/searchsploit /usr/local/bin/searchsploit
+ 
+ cp -n /opt/exploit-database/.searchsploit_rc ~/
+ 
+ vim ~/.searchsploit_rc
+ ```
  
  
