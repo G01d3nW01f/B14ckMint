@@ -82,3 +82,17 @@ sudo gem install wpscan
   
   ../run/john --test
  ```
+
+# 8 Install Metasploit
+ 
+ ![image](https://user-images.githubusercontent.com/75846902/154012579-b9a31050-c973-42ce-b516-906b73acf684.png)
+
+ 
+ ```
+ curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
+  chmod 755 msfinstall && \
+  ./msfinstall
+ ```
+ 
+ 
+ 
