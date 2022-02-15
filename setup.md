@@ -25,3 +25,13 @@ refference to below link <Japanese>
 
 https://linuxfan.info/make-linux-install-usb-on-windows
 
+# 3 Boot On 
+ 
+put the USB card to machines port,
+power on and after the press the F2 key or Delete key
+
+![image](https://user-images.githubusercontent.com/75846902/154010774-22b0c241-88a0-45fb-a0bb-2230ab7abe9b.png)
+
+[Start LinuxMint]
+ 
+ 
