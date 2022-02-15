@@ -35,3 +35,30 @@ power on and after the press the F2 key or Delete key
 [Start LinuxMint]
  
  
+# 4 Update
+ 
+```
+ sudo apt update
+ sudo apt upgrade
+```
+ 
+# 5 Install the tools
+ 
+```
+ sudo apt install git
+ sudo apt install python3-pip 
+ sudo apt install nmap
+ sudo apt install sqlmap
+ sudo apt install hashcat
+```
+ 
+# 6 Install WPscan
+ ![image](https://user-images.githubusercontent.com/75846902/154011661-173b9248-1c44-4db5-8a44-961623c6f7b9.png)
+
+```
+sudo apt install ruby
+
+sudo apt install build-essential libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev  libgmp-dev zlib1g-dev
+
+sudo gem install wpscan 
+```
