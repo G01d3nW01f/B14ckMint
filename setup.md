@@ -62,3 +62,23 @@ sudo apt install build-essential libcurl4-openssl-dev libxml2 libxml2-dev libxsl
 
 sudo gem install wpscan 
 ```
+ 
+# 7 Install John
+
+![image](https://user-images.githubusercontent.com/75846902/154012238-40e79cf6-a93d-46a3-84a7-afb9f332bb79.png)
+ 
+ ```
+ sudo apt-get install build-essential libssl-dev
+  
+  sudo apt-get install yasm libgmp-dev libpcap-dev libnss3-dev libkrb5-dev pkg-config libbz2-dev zlib1g-dev
+  
+  cd ~/src
+  
+  git clone git://github.com/magnumripper/JohnTheRipper -b bleeding-jumbo john
+  
+  cd ~/src/john/src
+  
+  ./configure && make -s clean && make -sj4
+  
+  ../run/john --test
+ ```
